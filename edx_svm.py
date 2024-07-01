@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 
 #lodaing dataset
-cell_df=pd.read_csv('E:\\datascience\\ed_x\\ed_x_project_and_lab\\csv\\cell_samples.csv')
+cell_df=pd.read_csv('cell_samples.csv')
 cell_df.head()
 #The dataset consists of several hundred human cell sample records, each of which contains the values of a set of cell characteristics.
 #The ID field contains the patient identifiers. The characteristics of the cell samples from each patient are contained in fields Clump to Mit. 
